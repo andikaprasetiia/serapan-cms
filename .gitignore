@@ -1,0 +1,30 @@
+# Local workspace files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example.locked
+
+# Dependencies intentionally excluded from the public showcase
+vendor/
+node_modules/
+
+# Build and runtime output
+dist/
+build/
+public/build/
+storage/
+bootstrap/cache/
+
+# Database and backups
+*.sql
+*.sqlite
+*.sqlite3
+*.dump
+*.bak
+
+# Logs
+*.log
+logs/
